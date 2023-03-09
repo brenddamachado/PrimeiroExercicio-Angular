@@ -39,3 +39,29 @@ h1{
         text-align: justify;
     }
 }
+
+@media only screen and (max-width: 575px) {
+    .container {
+      width: 90%;
+      height: auto;
+      margin-top: 10%;
+    }
+  
+    .container-titulo h1 {
+      font-size: 30px;
+    }
+  
+    .container-titulo p {
+      font-size: 12px;
+    }
+  
+    .container-lorem {
+      flex-direction: column;
+    }
+  
+    .container-lorem p {
+      font-size: 10px;
+      padding-left: 0;
+      margin-bottom: 10px;
+    }
+  }
